@@ -1,0 +1,158 @@
+.box{
+  width:20rem;
+  height: 20rem;
+  border:1px solid red;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-10rem;
+  margin-top:-10rem;
+}
+.item1_box{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-5rem;
+  margin-top:-5rem;
+  width:10rem;
+  height:10rem;
+  color:yellow;
+  transform-origin:center center;
+  border-color:  transparent transparent currentColor currentColor;
+  border-width: 0.2em 0em 0em 0.2em;
+  border-style: solid;
+  border-radius:50%;
+  animation: run 2s linear  infinite;
+  -webkit-animation: run 2s linear 1.2s infinite;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
+
+.item2_box{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-4.5rem;
+  margin-top:-4.5rem;
+  width:9rem;
+  height:9rem;
+  color:yellow;
+  transform-origin:center center;
+  border-color: currentColor currentColor transparent transparent;
+  border-width: 0em 0.2em 0.2em 0em;
+  border-style: solid;
+  border-radius:50%;
+  animation: run 2s linear  infinite;
+  -webkit-animation: run 2s linear 0.8s  infinite;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
+.item3_box{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-4rem;
+  margin-top:-4rem;
+  width:8rem;
+  height:8rem;
+  color:yellow;
+  transform-origin:center center;
+  border-color: transparent currentColor currentColor transparent;
+  border-width: 0em 0em 0.2em 0.2em;
+  border-style: solid;
+  border-radius:50%;
+  animation: run 2s linear  infinite;
+  -webkit-animation: run 2s linear 0.4s infinite;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
+.item4_box{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-3.5rem;
+  margin-top:-3.5rem;
+  width:7rem;
+  height:7rem;
+  color:yellow;
+  transform-origin:center center;
+  border-color: currentColor transparent transparent currentColor;
+  border-width: 0.2em 0.2em 0em 0em;
+  border-style: solid;
+  border-radius:50%;
+  animation: run 2s linear  infinite;
+  -webkit-animation: run 2s linear  infinite;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
+.item5_box{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-5.5rem;
+  margin-top:-5.5rem;
+  width:11rem;
+  height:11rem;
+  color:yellow;
+  transform-origin:center center;
+  border-color: currentColor transparent transparent currentColor;
+  border-width: 0.2em 0.2em 0em 0em;
+  border-style: solid;
+  border-radius:50%;
+  animation: run 2s linear  infinite;
+  -webkit-animation: run 2s linear 2s infinite;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
+@keyframes run{
+  0%{
+    color:yellow;
+    transform: rotate(0) ;
+    -webkit-transform: rotate(0) ;
+    -moz-transform: rotate(0) ;
+    -ms-transform: rotate(0) ;
+    -o-transform: rotate(0) ;
+  }
+  25%{
+    color:red;
+    transform: rotate(90deg)  ;
+    -webkit-transform: rotate(90deg)  ;
+    -moz-transform: rotate(90deg)  ;
+    -ms-transform: rotate(90deg)  ;
+    -o-transform: rotate(90deg)  ;
+} 
+  50%{
+    color:blue;
+    transform: rotate(180deg)  ;
+    -webkit-transform: rotate(180deg)  ;
+    -moz-transform: rotate(180deg)  ;
+    -ms-transform: rotate(180deg)  ;
+    -o-transform: rotate(180deg)  ;
+} 
+  75%{
+    color:palevioletred;
+    transform: rotate(270deg)  ;
+    -webkit-transform: rotate(270deg)  ;
+    -moz-transform: rotate(270deg)  ;
+    -ms-transform: rotate(270deg)  ;
+    -o-transform: rotate(270deg)  ;
+} 
+  100%{
+    color:yellow;
+    transform: rotate(360deg)  ;
+    -webkit-transform: rotate(360deg)  ;
+    -moz-transform: rotate(360deg)  ;
+    -ms-transform: rotate(360deg)  ;
+    -o-transform: rotate(360deg)  ;
+  } 
+}
